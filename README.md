@@ -36,8 +36,11 @@ PortScanner 是一款跨平台开放端口高性能审计小工具。它通过�
 
 根据操作系统，直接下载对应已编译好的运行文件即可。
 
-https://github.com/heismart/PortScanner/tree/master/bin
+Window 32位操作系统
+[下载链接](https://github.com/Heismart/portscanner/blob/main/PortScanner_win_386.exe )
 
+Window 64位操作系统
+[下载链接](https://github.com/Heismart/portscanner/blob/main/PortScanner_win_x64.exe)
 
 ### 帮助信息
 ````
