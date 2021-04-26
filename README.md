@@ -42,15 +42,7 @@ https://github.com/heismart/PortScanner/tree/master/bin
 ### 帮助信息
 ````
 
-        ░█▀█░█▀█░█▀▄░▀█▀░█▀▀░█▀▀░█▀█░█▀█░█▀█░█▀▀░█▀▄
-        ░█▀▀░█░█░█▀▄░░█░░▀▀█░█░░░█▀█░█░█░█░█░█▀▀░█▀▄
-        ░▀░░░▀▀▀░▀░▀░░▀░░▀▀▀░▀▀▀░▀░▀░▀░▀░▀░▀░▀▀▀░▀░▀
-
-        luogenji@hotmail.com(stathub.cn)     ver 1.0
-
-
-
- Usage: PortScanner [-h 帮助] [-host ip地址或域名]  [-port 端口号范围] [-thread 并发] [-timeout 超时时长] [-log-dir 扫描日志保存路径]
+Usage: PortScanner [-h 帮助] [-host ip地址或域名]  [-port 端口号范围] [-thread 并发] [-timeout 超时时长] [-log-dir 扫描日志保存路径]
 
 CLI参数:
 
@@ -64,9 +56,10 @@ CLI参数:
   -skip-knowports
         默认拓展扫描系统收录的6000+已知端口. 设置为false可缩短扫描时间. (default true)
   -thread int
-        并发总线程数 例如:-n=100 (default 100)
+        并发总线程数 例如:-thread=100 (default 100)
   -timeout int
-        每端口超时时长(毫秒) 例如:-t=200 (default 200)
+        每端口超时时长(毫秒) 例如:-timeout=200 (default 200)
+
 ````
 
 ## 用例演示
