@@ -1,7 +1,13 @@
-# portscanner
-PortScanner 是一款跨平台开放端口高性能审计小工具。它通过扫描`服务器`或`IP/IP段`的已知或未知开放端口，最终以审计清单向你报告情况。
-
 # PortScanner
+````
+
+        ░█▀█░█▀█░█▀▄░▀█▀░█▀▀░█▀▀░█▀█░█▀█░█▀█░█▀▀░█▀▄
+        ░█▀▀░█░█░█▀▄░░█░░▀▀█░█░░░█▀█░█░█░█░█░█▀▀░█▀▄
+        ░▀░░░▀▀▀░▀░▀░░▀░░▀▀▀░▀▀▀░▀░▀░▀░▀░▀░▀░▀▀▀░▀░▀
+
+        luogenji@hotmail.com(stathub.cn)     ver 1.0
+````
+
 PortScanner 是一款跨平台开放端口高性能审计小工具。它通过扫描`服务器`或`IP/IP段`的已知或未知开放端口，最终以审计清单向你报告情况。
 
 ### 特性功能：
@@ -19,7 +25,8 @@ PortScanner 是一款跨平台开放端口高性能审计小工具。它通过�
 
 ### 软件截图
 
-
+![image.png](https://github.com/Heismart/portscanner/blob/main/help.png)
+![image.png](https://github.com/Heismart/portscanner/blob/main/scaned.png)
 
 ### 安装使用
 
@@ -60,23 +67,23 @@ CLI参数:
 
 ## 用例演示
 #### Case 1：用 100 并发线程扫描特定主机名(或域名)上的特定端口号集，
-
+```
 PortScanner -port 80,81,88-3306 -host 163.com -thread 100
-
+```
 #### Case 2：扫描特定IP范围,如：192.168.8.1-255，80-1024的端口
-
+```
 PortScanner -host 192.168.0.1-255 -port 80-1024 -thread 100
-
+```
 
 ##### ！扫描结果存放在logs目录中，以当前[host]_scaned.[时间戳].log命名，该目录可通过-log-dir指定路径
 
 ## 后续计划
 
-[] 端口服务审计，识别端口实际对应的应用服务
+[ ] 端口服务审计，识别端口实际对应的应用服务
 
-[] 端口服务弱口令及安全审计,如：Mysql,Mongodb,Redis等
+[ ] 端口服务弱口令及安全审计,如：Mysql,Mongodb,Redis等
 
-[] 服务化支持端口开放审计及安全审计通知
+[ ] 服务化支持端口开放审计及安全审计通知
 
 
 
